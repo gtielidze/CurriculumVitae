@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/menuFragment">
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="giorgi.tielidze.MenuFragment"
+        android:label="MenuFragment" >
+        <action
+            android:id="@+id/action_menuFragment_to_computerSkills"
+            app:destination="@id/computerSkills" />
+        <action
+            android:id="@+id/action_menuFragment_to_education"
+            app:destination="@id/education" />
+        <action
+            android:id="@+id/action_menuFragment_to_experience2"
+            app:destination="@id/experience2" />
+        <action
+            android:id="@+id/action_menuFragment_to_languages"
+            app:destination="@id/languages" />
+        <action
+            android:id="@+id/action_menuFragment_to_personalInfo"
+            app:destination="@id/personalInfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/computerSkills"
+        android:name="giorgi.tielidze.ComputerSkills"
+        android:label="ComputerSkills" >
+        <action
+            android:id="@+id/action_computerSkills_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/education"
+        android:name="giorgi.tielidze.Education"
+        android:label="Education" >
+        <action
+            android:id="@+id/action_education_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/experience2"
+        android:name="giorgi.tielidze.Experience"
+        android:label="Experience" >
+        <action
+            android:id="@+id/action_experience2_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/languages"
+        android:name="giorgi.tielidze.Languages"
+        android:label="Languages" >
+        <action
+            android:id="@+id/action_languages_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/personalInfo"
+        android:name="giorgi.tielidze.PersonalInfo"
+        android:label="PersonalInfo" >
+        <action
+            android:id="@+id/action_personalInfo_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+</navigation>

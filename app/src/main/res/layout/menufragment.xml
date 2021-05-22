@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menuFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:startDestination="@id/menuFragment">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnPersonalInfo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/yellow_100"
+        android:text="@string/personal_info"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnExperience"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnExperience"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/yellow_200"
+        android:text="@string/experience"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnEducation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPersonalInfo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnEducation"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/green_100"
+        android:text="@string/education"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLanguages"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnExperience" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLanguages"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue_100"
+        android:text="@string/languages"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/btnComputerSkils"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEducation" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnComputerSkils"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/aquamarine_200"
+        android:text="@string/computer_skills"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLanguages" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Curriculum Vitae</string>
+    <string name="computer_skills">Computer skills</string>
+    <string name="languages">Languages</string>
+    <string name="training_courses">Training Courses</string>
+    <string name="education">Education</string>
+    <string name="experience">Experience</string>
+    <string name="personal_info">Personal Info</string>
+
+    <string name="personal">
+\n\nName: Giorgi Tielidze
+\n\nAddress: Stalini st 2a, Gori
+\n\nPhone: +995 599 44 60 22
+\n\nE-mail: gtielidze@gmail.com \n\n
+    </string>
+    <string name="lang">
+        \n\nGeorgian - Native
+\n\nEnglish - B1
+\n\nRussian - B1 \n\n
+    </string>
+    <string name="edu">
+        \n\n1993 - 2004 Gori #9 Middle school
+\n\n2004 - 2008 Gori University - Social Science, Business and Jurisprudence Faculty. Social Sciences Bachelor’s Academic Degree
+        \n\nTraining Courses:
+\n\n2006 Association of young economist Georgia - Training in the basics of marketing
+\n\n2005 Association of young economist Georgia - Training in Finance
+\n\n2021 Tbilisi School of Communication – Android Development Course\n\n
+    </string>
+    <string name="job_experience">
+        \n\nDate: 01/02/2011 – Thus far
+\n\nCompany: Social Service Agency
+\n\nJob Title: Control Department Employee
+\n\nDate: 01/01/2008-31/05/2010
+\n\nCompany: CARE international in the Caucasus
+\n\nJob Title: Communication Specialist
+\n\nDate: 2007-2008
+\n\nCompany: Jeobet 11
+\n\nJob Title: Cashier
+\n\nDate: 2006-2008
+\n\nCompany: Association of young economist Georgia , Gori Branch
+\n\nJob Title: Administrator\n\n
+    </string>
+    <string name="compskills">\n\nKotlin
+\n\nPython
+\n\nAndroid
+\n\nAndroid studio
+\n\nGithub\n\n
+    </string>
+
+</resources>
